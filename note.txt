@@ -1,2 +1,9 @@
+git clone
 git status
 git add ./ git add "filename"
+git commit -m "message"
+git push -u orgin main
+git branch
+git checkout -b
+git checkout branchname
+git pull
