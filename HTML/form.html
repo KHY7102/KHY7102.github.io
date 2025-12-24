@@ -8,7 +8,10 @@
 <body>
     <h1 align="center">Form Lessons</h1>
 <br>
-<form action="register.html" method="get">
+<form action="register.html" method="get" enctype="multipart/form-data">
+    <!-- for image -->
+     <label for="image">Image</label>
+     <input type="file" name="image" id="image">
 
 <!-- for name --> <br>
 <div>
@@ -56,7 +59,31 @@
         <input type="radio" id="female" name="gender" value="female">
         <label for="female">Female</label>
     </div>
-    <br><br>
+    <br>
+    <!-- for hobbies -->
+     <label for="hobbies">Hobbies</label>
+     <div>
+        <input type="checkbox" name="hobbies" id="reading" value="reading"> <label for="reading">Reading</label>
+        <input type="checkbox" name="hobbies" id="writing" value="writing"> <label for="writing">Reading</label>
+        <input type="checkbox" name="hobbies" id="playing" value="playing"> <label for="reading">Playing</label>
+        <input type="checkbox" name="hobbies" id="swiming" value="swiming"> <label for="swiming">Reading</label>
+    
+     </div>
+     <br><br>
+     <!-- for address -->
+      <div>
+        <label for="address">Address</label>
+        <textarea name="address" id="Enter Your Address"></textarea>
+      </div>
+      <br><br>
+      <!-- for color -->
+       <div>
+        <label for="color">Color</label>
+        <input type="color" name="color" id="Select your favorite color">
+       </div>
+   
+     <br><br>
+
     <button type="submit">Register</button>
     <br>
     </form>
