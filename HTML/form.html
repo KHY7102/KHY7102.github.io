@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1 align="center">Form Lessons</h1>
+<br>
+<form action="register.html" method="get">
+
+<!-- for name --> <br>
+<div>
+    <label for="name">Name:</label>
+    <input type="text" id="name" placeholder="Enter Name" name="name">
+</div>
+<br><br>
+<!-- for email -->
+<div>
+    <label for="email">Email:</label>
+    <input type="email" id="email" placeholder="Enter Email" name="email">
+</div>
+<br>
+<br>
+<!-- for Age -->
+ <div>
+    <label for="age">Age:</label>
+    <input type="number" id="age" placeholder="Enter Age" name="age" step="5" min="18" max="50">
+ </div>
+ <br><br>
+ <!-- for date -->
+  <div>
+    <label for="date">Date:</label>
+    <input type="date" name="date" id="date" placeholder="Enter Date">
+
+  </div>
+  <br><br>
+  <!-- for password -->
+   <div>
+    <label for="password">Password:</label>
+    <input type="password" id="password" placeholder="Enter Password" name="password">
+   </div>
+   <br><br>
+   <!-- for time -->
+    <div>
+        <label for="time">Time:</label>
+        <input type="time" id="time" placeholder="Enter time" name="time">
+        <br><br>
+    </div>
+
+    <!-- for gender -->
+     <label for="gender">Gender:</label>
+     <div> <input type="radio" id="male" value="male" name="gender">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+    </div>
+    <br><br>
+    <button type="submit">Register</button>
+    <br>
+    </form>
+</body>
+</html>
