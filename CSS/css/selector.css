@@ -1,0 +1,68 @@
+ /* Universal selector */
+
+*{
+    /* color: aliceblue; */
+}
+
+/* Element or tag selector */
+
+h1{
+    color: #31d44f;
+    text-align: center;
+}
+a{
+    text-align: center;
+}
+
+/* Arttributes selector */
+a [title="google"] {
+    color: #502695;
+    text-decoration: none;
+}
+
+
+/* id selector */
+#1{
+    color: #464040;
+    text-indent: 40px;
+}
+
+/* class selector */
+.class1{
+    color: #355f84;
+    text-indent: 40px;
+}
+
+/* Decs selector */
+#id1 a{
+    color: #a82323;
+}
+
+/* Child selector */
+p > a{
+    color: #a82323;
+}
+
+/* Pseudo Selector */
+a:link {
+    color: #03033e;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #5c3030;
+    text-decoration: dotted underline;
+}
+
+a:active {
+    color: #4f8964;
+}
+
+a:visited {
+    color: #e21010;
+}
+
+/* Target selector */
+p:target {
+    color: #502695;
+}

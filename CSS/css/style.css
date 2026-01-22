@@ -1,0 +1,121 @@
+h1{
+    color: #c70adc;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* border lesson */
+
+.borderone,.marginone{
+    border: 5px solid #808080 ;
+    /* border-style: solid; */
+    /* border-width: 30px 20px 10px 5px; */
+}
+
+/* margin lesson */
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.marginone{
+    margin: 20px;
+    padding: 10px 20px;
+}
+
+
+/* float lesson */
+
+.floatone img{
+    width: 20%;
+    float: right;
+    margin-left: 40px;
+}
+
+.floatone p{
+    text-align: justify;
+    /* border: solid 5px; */
+    /* padding: 0px 20px; */
+}
+.clear {
+    clear: both;
+}
+
+/* grid lesson */
+
+.gridone,.gridcolumnadd,.gridrowadd {
+    display: grid;
+    text-align: center;
+    color: aliceblue;
+    grid-template-columns: auto auto auto;
+    /* grid-column-gap: 40px; */
+    /* grid-row-gap: 20px; */
+    grid-gap: 40px 20px;
+}
+
+/* column add */
+.startadd{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+/* row add */
+.rowadd{
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+/* relative position */
+.relative-parent{
+    border: 2px solid #000000;
+    height: 500px;
+}
+
+.relative{
+    width: 400px;
+    position: relative;
+    border: 2px solid #ff0000;
+    top: 200px;
+    left: 200px;
+}
+
+/* absolute position */
+.absolute-parent{
+    border: 2px solid #000000;
+    height: 500px;
+    position: relative;
+}
+
+.absolute{
+    width: 400px;
+    position: absolute;
+    border: 2px solid #ff0000;
+    top: 100px;
+    left: 200px;
+
+}
+
+/* Fixed position */
+.fixed{
+    position: fixed;
+    top: 100px;
+    right: 100px;
+}
+
+/* font lesson */
+.online-font{
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: offline;
+    src: url(../Oswald/Oswald-VariableFont_wght.ttf);
+}
+.offline-font{
+    font-family: offline;
+}
+
